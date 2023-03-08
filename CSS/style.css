@@ -77,10 +77,18 @@ a {
 .authorization__login a:hover {
   border-bottom: 2px solid #ffffff;
 }
+
 .authorization__sign-up button {
+  display: flex;
+  width: 95px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   color: #121214;
   transition: transform 0.5s ease;
+  background: #ffffff;
+  border-radius: 32px;
   transform: scale(1);
 }
 .authorization__sign-up button:hover {
@@ -91,13 +99,7 @@ a {
   font-size: 16px;
   color: #121214;
 }
-.authorization__sign-up button {
-  padding: 8px 21px;
-  width: 95px;
-  height: 35px;
-  background: #ffffff;
-  border-radius: 32px;
-}
+
 .header__info {
   display: flex;
   flex-direction: row;
